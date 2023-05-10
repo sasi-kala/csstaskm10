@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Task4</title>
+</head>
+<body>
+	<h2>Using display:flex</h2>
+	<div class="container">
+		<div class="item">Item 1</div>
+		<div class="item">Item 2</div>
+		<div class="item">Item 3</div>
+		<div class="item">Item 4</div>
+		<div class="item">Item 5</div>
+		
+	</div>
+
+	<h2>Using display:inline-flex</h2>
+	<div class="inline-container">
+		<div class="inline-item">Item 1</div>
+		<div class="inline-item">Item 2</div>
+		<div class="inline-item">Item 3 </div>
+		<div class="inline-item">Item 4 </div>
+		<div class="inline-item">Item 5 </div>
+		<div class="inline-item">Item 3 </div>
+		
+	</div>
+<style>
+	
+	.container
+	{
+         display:flex;
+         
+	}
+	.item
+	{
+		flex:1;
+		padding:25px;
+		border:3px solid black;
+		margin-right: 20px;
+		background-color: lightblue;
+		
+	}
+	.inline-item
+	{
+		flex:1;
+		padding:25px;
+		border:3px solid black;
+		margin-right: 20px;
+		background-color: lightblue;
+		
+	}
+	.inline-container
+	{
+         display:inline-flex;
+         
+	}
+</style>
+</body>
+</html>

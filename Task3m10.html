@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Task3</title>
+</head>
+<body>
+	<h2>Flex Container</h2>
+	<div class="flex-container">
+		<div class="flex-item">Item 1</div>
+		<div class="flex-item">Item 2</div>
+		<div class="flex-item">Item 3</div>
+		<div class="flex-item">Item 4</div>
+	</div>
+<br>	
+	<h2>InlineElements</h2>
+	<div class="inline">
+	<span class="inline-item">Inline Item 1</span>	
+	<span class="inline-item">Inline Item 2</span>	
+	<span class="inline-item">Inline Item 3</span>	
+	</div>
+<style>
+	.flex-container
+	{
+		display:flex;
+		flex-wrap:wrap;
+		background-color: lightpink;
+		
+	}
+	.flex-item
+	{
+		width:700px;
+		height:100px;
+		background-color: lightblue;
+		border:3px solid black;
+
+		margin:10px;
+	}
+	.inline-item
+	{  /* width:500px;
+		height: 100px; width and height is not working in display:inline but it is working in display:flex, so to increase the space for display:inline use padding and margin*/
+		display:inline-block;
+		background-color: lightpink;
+		padding: 20px	;
+		border:3px solid black;
+		margin:30px 30px;
+
+	}
+	.inline 
+	{
+		background-color: lightblue;
+		
+	}
+</style>
+
+</body>
+</html>
